@@ -22,6 +22,14 @@ actively and in small groups. Really, the only way to learn Python is to do it.
    intro02/computer_overview
    intro02/python_overview
 
+.. toctree::
+   :maxdepth: 2
+   :caption: 03 Plotting, Loops, Conditions, Functions
+
+   intro03/plotting
+   intro03/loops
+   intro03/conditions
+   intro03/functions
 
 
 Indices and tables

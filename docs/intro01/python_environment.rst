@@ -52,3 +52,7 @@ To ensure that Python is installed correctly you can run this simple test progra
 
     # Show everything in the end:
     plt.show()
+
+The result should look something like this:
+
+.. image:: sine_plot.png
