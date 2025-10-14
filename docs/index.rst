@@ -1,7 +1,7 @@
-.. Advanced Python course
+.. Introduction Python course
 
-Welcome to the advanced Python course
-=====================================
+Welcome to the introduction Python course
+=========================================
 
 In this course you will learn how to write Python programs that do calculations, read and write data
 to the filesystem and visualize it.
@@ -31,6 +31,19 @@ actively and in small groups. Really, the only way to learn Python is to do it.
    intro03/conditions
    intro03/functions
 
+.. toctree::
+   :maxdepth: 2
+   :caption: 04 Generating and manipulating data
+
+   intro04/load_and_save_data
+   intro04/math_functions
+   intro04/derivative
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 05 More advanced topics
+
+   intro05/heat_equation
 
 Indices and tables
 ==================

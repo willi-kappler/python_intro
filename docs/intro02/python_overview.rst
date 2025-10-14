@@ -177,7 +177,7 @@ approximated in a binary form. As a result you might encounter problems:
 
     a = 1.1 + 2.2
     print(a) # 3.300000000000000003
-    a == 3.3 # False
+    print(a == 3.3) # False
 
 Indices
 -------
@@ -236,7 +236,7 @@ Useful functions
 * ``min(), max()``: find the smallest / biggest element in a built-in data structure.
 * ``np.min(), np.max()``: min, max for numpy arrays.
 
-.. attention:: Exercise 1:
+.. attention:: Exercise 2.1:
 
     * Use the library ``numpy`` to create the three arrays shown above with the function ``array()``.
     * Once the three arrays are created write a ``print()`` command that states the dimensions of these arrays.

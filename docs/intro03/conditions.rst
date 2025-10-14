@@ -21,7 +21,7 @@ For loops and if conditions
 
 Now let's combine a for loop and if condition to solve the following exercise.
 
-.. attention:: Exercise 1:
+.. attention:: Exercise 3.1:
 
     * Create a vector including numbers from 1 to 9.
     * Using a for loop iterate over each of these numbers.
