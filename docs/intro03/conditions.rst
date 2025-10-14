@@ -1,12 +1,12 @@
 If Conditions
 =============
 
-Important for the if condition as for the for loop is to have a colon after the if condition and then have eveything in
-this condition indented. So do no introduce additionsl indentations, this will cause an error.
+Important for the if conditions and for the for loop is to have a colon after the statement and then have eveything in
+this block indented. So do no introduce additionsl indentations, this will cause an error.
 
 .. code-block:: python
 
-    # Defining an if condition, this cousd also be used to compare two variables
+    # Defining an if condition, this could also be used to compare two variables
 
     a = 2
     if a > 10 and a <= 50:
@@ -15,6 +15,33 @@ this condition indented. So do no introduce additionsl indentations, this will c
         print("a is very large")
     else:
         print("a is small")
+
+Here is a table of boolean operation that Python supports:
+(All of them support short circuit)
+
+.. csv-table:: And, Or
+    :header: "a", "b", "a and b", "a or b"
+    :align: center
+
+    "False", "False", "False", "False"
+    "False", "True", "False", "True"
+    "True", "False", "False", "True"
+    "True", "True", "True", "True"
+
+.. csv-table:: Any, All
+    :header: "l", "any(l)", "all(l)"
+    :align: center
+
+    "[]", "False", "False"
+    "[False]", "False", "False"
+    "[True]", "True", "True"
+    "[False, True]", "True", "False"
+    "[True, False]", "True", "False"
+    "[True, True]", "True", "True"
+    "[False, False, True]", "True", "False"
+    "[True, True, True]", "True", "True"
+    "[..., True, ...]", "True", "False"
+    "[..., False, ...]", "True", "False"
 
 For loops and if conditions
 ===========================

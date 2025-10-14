@@ -5,7 +5,7 @@ Installation
 ------------
 
 You have to install Python and Spyder on your computer.
-The PCs in the lab 2U03 and the laptops in the seminar room 4F03 have it already installed.
+The PCs in the lab **2U03** and the laptops in the seminar room **4F03** have it already installed.
 
 Python is an open-source environment with significant input from the user community.
 Many of the developments are packaged in libraries designed for specific tasks.
@@ -41,7 +41,7 @@ To ensure that Python is installed correctly you can run this simple test progra
 
     # Some data for plotting:
     t = np.arange(0.0, 2.0, 0.01)
-    s = 1 + np . sin(2 * np.pi * t)
+    s = 1.0 + np . sin(2.0 * np.pi * t)
 
     # Create the plots:
     fig, ax = plt.subplots()

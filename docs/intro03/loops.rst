@@ -35,7 +35,7 @@ with this value.
     # index: 2, value3
     # index: 3, value4
 
-A loop is used to iteratie over a sequence, which could consist of a list, tuple, dictionary etc. Using a for loop you
+A loop is used to iteratie over a sequence, which could consist of a list, tuple, dictionary, etc. Using a for loop you
 can access every elemnt in a list or every letter in a word one by one using this command:
 
 .. code-block:: python

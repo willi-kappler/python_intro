@@ -32,7 +32,7 @@ this is your first time of writing a loop this can take some time.
     * Print all CO2 values on the screen using a for loop. (How could this be done much easier?)
     * Print only the time intervals where no data are available
     * Create a new vector where the no-data values are removed.
-    * Visualize the new vector. Anything different compared to 2.1?
+    * Visualize the new vector. Anything different compared to the previous exercise?
       Start a new for loop block and calculate the time derivative of the time series. Visualize it.
 
 Linear Regession
@@ -64,7 +64,7 @@ of doing this is to specify the files in a list:
         data = pandas.read_csv(file)
         result = pandas.concat([result, data])
 
-    print(result) 
+    print(result)
 
 Another way is to specify a file pattern and to load all the files that have that pattern in their name:
 

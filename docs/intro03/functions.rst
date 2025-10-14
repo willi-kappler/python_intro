@@ -2,7 +2,7 @@ Functions in Python
 ====================
 
 You already know several functions in python, such as ``print()``, ``range()``, ``len()``. Behind these words stand a block of code
-which will only be executed when you call the function. Let"s look at the example of the function ``len()``. When you
+which will only be executed when you call the function. Let's look at the example of the function ``len()``. When you
 want to find out the length of a data structure, i.e. how many characters there are in a string, you can use the following
 statement:
 
@@ -13,7 +13,7 @@ statement:
 
     # Output: 5
 
-When using a function, you pass data, known as parameters, in this case you use the variable a, into the function.
+When using a function, you pass data, known as parameters, in this case you use the variable ``l``, into the function.
 Python then runs the function and returns the results. You can find more detail about the ``len()`` function here:
 
 https://www.w3schools.com/python/ref_func_len.asp
@@ -36,9 +36,9 @@ Why do we use or define functions? It's an abstraction method to enable re-usage
     print(f"The sum is: {s1}")
     print(f"The sum is: {s2}")
 
-    # How to implement this if we don"t know how many values will be added on
+    # How to implement this if we don't know how many values will be added:
 
-    def add_any(values): # use a list
+    def add_any(values): # Use a list
         result = 0
         for v in values:
             result = result + v

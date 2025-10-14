@@ -52,7 +52,7 @@ Variables
 
 Variables are also very important in Python and other programming languages. As the name implies they can change their values unlike constants.
 In Python and other dynamically typed programming languages, variables can also change their types.
-A variable is a reference to a stored value. For instance if your code contains the line ``a=3``, that means that the value
+A variable is a reference to a stored value. For instance if your code contains the line ``a = 3``, that means that the value
 3 is stored under the variable a. Variables can be assigned to individual values, lists, matrix, strings, arrays etc.
 
 Examples:
@@ -153,8 +153,8 @@ represented by a combination of 1s and 0s. The following list gives a few exampl
 corresponding binary numbers in a 8-bit system:
 
 .. csv-table:: Binary numbers
-   :header: "Integer", "Binary"
-   :align: center
+    :header: "Integer", "Binary"
+    :align: center
 
     "0",   "0000 0000"
     "1",   "0000 0001"
@@ -233,6 +233,7 @@ Useful functions
 * ``a[:, 3]``: select the second column with all rows from a numpy array.
 * ``del a``: delete a variable and free the memory (any type).
 * ``l.append(15)``: append the element ``"15"`` to the end of a list.
+* ``l.sort()``: sorts a list of items.
 * ``min(), max()``: find the smallest / biggest element in a built-in data structure.
 * ``np.min(), np.max()``: min, max for numpy arrays.
 
@@ -253,10 +254,10 @@ And there are a lot of external Python packages available.
 
 These are the one that we will be using as mentioned earlier:
 
-* numpy: NumPy, which is short for Numerical Python, is used when working with arrays. It includes functions of lineare
+* **numpy**: NumPy, which is short for Numerical Python, is used when working with arrays. It includes functions of lineare
   algebra (similar to Matlab), fourier transform, and matrices.
-* matplotlib: Most packages that we use in this class are located in the submodule pyplot in the matplotlib-library. This submodule
+* **matplotlib**: Most packages that we use in this class are located in the submodule pyplot in the matplotlib-library. This submodule
   is ofter imported under the alias plt.
-* pandas: A library used when working with data sets or database. It is usefull when analysing big dataset for a specific
+* **pandas**: A library used when working with data sets or database. It is usefull when analysing big dataset for a specific
   conditions, cleaning it up, manipulating it (merging data etc.).
 

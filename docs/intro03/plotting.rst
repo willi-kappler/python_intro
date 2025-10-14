@@ -13,7 +13,7 @@ end, which tells python to plot the data in the format you specified before:
     import matplotlib.pyplot as plt
     import numpy as np
 
-    # e.g. salinity vs temperature:
+    # E.g. salinity vs temperature:
     array2D=np.array([[5.2, 3.0, 4.5], [9.1, 0.1, 0.3]])
 
     # Plotting point data, make sure that both vectors you want to plot have the same length:
@@ -44,13 +44,13 @@ for a pdf file:
 
     import matplotlib.pyplot as plt
 
-    # setting the size of the figure -important in case you want this to fit perfectly your page
+    # Setting the size of the figure -important in case you want this to fit perfectly your page
     fig, ax = plt.subplots(figsize=(10, 6))
 
     x = [1, 2, 3, 4, 5, 6]
     y = [0, 2, 4, 6, 8, 10]
 
-    # plotting a plot
+    # Plotting the data
     ax.plot(x, y)
 
     ax.set_title("Title", fontsize=20)
