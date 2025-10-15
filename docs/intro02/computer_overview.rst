@@ -7,6 +7,19 @@ This is just a rough description of a modern computer:
 
 The most important components are:
 
+.. index::
+  single: CPU
+  single: RAM
+  single: HDD
+  single: SSD
+  single: GPU
+  single: USB
+  single: system bus
+  single: LAN
+  single: WAN
+  single: BIOS
+  single: UEFI
+
 * **CPU:** Central Processing Unit, executes all the software.
 * **RAM:** Random Access Memory, the main memory. Holds all the data that running programs are using and the programs themselves.
   Does not persist data, everything is lost when power down.

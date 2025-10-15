@@ -1,0 +1,16 @@
+Try to move all Python code to external files and include them:
+
+
+. literalinclude:: test_py_module/test.py
+          :language: python
+          :linenos:
+          :lines: 1-10
+
+
+
+Add more intex items:
+
+.. index:: single: installation
+
+:index:`module`
+

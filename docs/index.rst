@@ -24,7 +24,7 @@ actively and in small groups. Really, the only way to learn Python is to do it.
 
 .. toctree::
    :maxdepth: 2
-   :caption: 03 Plotting, Loops, Conditions, Functions
+   :caption: 03 Plotting, loops, conditions, functions
 
    intro03/plotting
    intro03/loops
@@ -55,5 +55,3 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

@@ -1,6 +1,8 @@
 Setup the Python environment
 ============================
 
+.. index:: single: installation
+
 Installation
 ------------
 
@@ -16,14 +18,20 @@ Ensure that you have the following Python packages:
 * Numpy
 * Pandas
 
+.. index:: single: editors
+
 **Editors:** You can use any text editor to write your python code. However, editors which are designed
 specifically for coding in python offer you different featues, such as ode completion, synthay highlighting and
 auto ondentation, which will make your life much easier. Examples of such editors are PyCharm, Anaconda,
 IDLE, Jupyter, Spyder.
 
+.. index:: single: indentation
+
 **Indentations:** While other programming languages are using brackets or other features to structure parts
 of the code in blocks, in Python this is done using indentations. This means that if you by accident add
 indentaions manually your code won't run as expected.
+
+.. index:: single: test
 
 Test program
 ------------
