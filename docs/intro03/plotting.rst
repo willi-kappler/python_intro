@@ -31,7 +31,15 @@ end, which tells python to plot the data in the format you specified before:
 
 
 
-The default of the ``plot`` function is to draw a line. The style of the line can be changed using ``xxx``.
+The default of the ``plot`` function is to draw a line. The style of the line can be changed using:
+
+.. code-block:: python
+
+    plt.plot(x, y, linestyle=":", color="b") # Dotted blue line
+    plt.plot(x, y, linestyle="-.", color="y") # Dash-Dot yellow line
+    plt.plot(x, y, linestyle="--", color="g") # Dashed green line
+
+You can read more about line styles here: https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html
 
 
 Exporting plots

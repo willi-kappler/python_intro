@@ -65,10 +65,16 @@ of the average. Or ask the user for input on which range of the data to plot.
     print(f"Hello {name}")
 
     number = input("Give me a number: ")
-    number = int(number) # Convert anything to an integer
-    number = float(number) # Convert anything to a float
+    number = int(number) # Convert it to an integer
+    number = float(number) # Convert it to a float
 
 
+.. code-block:: python
+
+    import numpy as np
+    # Ask for a file name to load:
+    filename = input("Which file do you want to open? ")
+    data = np.loadtxt(filename)
 
 .. attention:: Exercise 3.2:
 

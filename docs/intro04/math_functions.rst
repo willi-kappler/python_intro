@@ -6,7 +6,7 @@ Visualization of mathematical functions
 
 Make use of some numpy functions (``numpy.arange``) and get a feel for some vector manipulation.
 
-.. attention:: Exercise 4.6:
+.. attention:: Exercise 4.5:
 
     * Visualize :math:`f(t)=\sin(\omega t + \phi_0)` for a given frequency :math:`\omega = 1.2Hz` and phase shift :math:`\phi_0` over the time
       interval :math:`t = 0...10` at discrete time intervals :math:`dt = 0.001` s.
@@ -22,7 +22,7 @@ Make use of some numpy functions (``numpy.arange``) and get a feel for some vect
 More Loops
 ----------
 
-.. attention:: Exercise 4.7:
+.. attention:: Exercise 4.6:
 
     Visualize a 2D Gaussian peak:
 
@@ -68,7 +68,7 @@ Mathematically the Fibonacci numbers are defined as:
         \end{array}
     \right.
 
-.. attention:: Exercise 4.8:
+.. attention:: Exercise 4.7:
 
     Now write the Fibonacci function in a non-recursive way using a *for loop* or a *while loop*.
 
@@ -77,13 +77,38 @@ Regressions
 
 Regression analysis is a way to determine a realtion between different parameters or variables. Such a relation might
 be linear (first order) or polynominal (higher order). To determine how good the fit of the regression is to the actual
-data, we can calcualte the R2 value. The higher the R2 value, the better the fit to the data. Let's look at Figure below.
+data, we can calcualte the :math:`R^2` value. The higher the :math:`R^2` value, the better the fit to the data. Let's look at the figure below.
 Here the green dots are our exemplary datapoint. Panel 1 shows a linear fit, Panel 2 a second order, Panel 3 a third
-oder and Panel 4 a forth order fit. We see the R2 value increasing with every panel. In this example the exemplary
+order and Panel 4 a forth order fit. We see the :math:`R^2` value increasing with every panel. In this example the exemplary
 data is created using a forth order polinominal function.
 
 Using the polyfit function you can fit a n-th order function to your data. The output of this function then is a vector
 of coefficients p that minimise the squared error of the fit to the data. For instance for a linear fit the fit looks like:
 
-TODO ...
+.. math::
+    y(x) = mx + b
 
+for a 2nd-5th order polynominal:
+
+.. math::
+    y(x) = ax^2 + bx + c
+
+    y(x) = ax^3 + bx^2 + cx + d
+
+    y(x) = ax^4 + bx^3 + cx^2 + dx + e
+
+    y(x) = ax^5 + bx^4 + cx^3 + dx^2 + ex + f
+
+To evalualte this polynominal at specific values (given as x) use the ``polyval`` function.
+
+.. image:: regression.png
+
+You can read more about it here: https://en.wikipedia.org/wiki/Coefficient_of_determination
+
+.. attention:: Exercise 4.8:
+
+    Load the Keeling curve. Fit a first and second order polynomial to the dataset. We understand
+    that this type of fitting must have been solved by somebody else already and therefore use functions to do
+    the task, specifically numpy's ``polyfit`` and ``polyval`` combination. Visualize the seasonality by subtracting
+    the fit from the observations. Which models (i.e. first or second order polynomial) fits better and what
+    does that mean?

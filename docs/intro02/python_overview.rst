@@ -153,21 +153,15 @@ represented by a combination of 1s and 0s. The following list gives a few exampl
 corresponding binary numbers in a 8-bit system:
 
 .. csv-table:: Binary numbers
-    :header: "Integer", "Binary"
+    :header: "Integer", "Binary", "Integer", "Binary"
     :align: center
 
-    "0",   "0000 0000"
-    "1",   "0000 0001"
-    "2",   "0000 0010"
-    "3",   "0000 0011"
-    "4",   "0000 0100"
-    "5",   "0000 0101"
-    "6",   "0000 0110"
-    "7",   "0000 0111"
-    "8",   "0000 1000"
-    "9",   "0000 1001"
-    "10",  "0000 1010"
-    "...", "..."
+    "0",   "0000 0000", "6",   "0000 0110"
+    "1",   "0000 0001", "7",   "0000 0111"
+    "2",   "0000 0010", "8",   "0000 1000"
+    "3",   "0000 0011", "9",   "0000 1001"
+    "4",   "0000 0100", "10",  "0000 1010"
+    "5",   "0000 0101", "...", "..."
 
 This has been the case for many years and therefore works well, except when you work with numbers that have an
 indefiniete amount of decimal numbers, such as given for 1/6 which is 0.1666666666..., these numbers can only be

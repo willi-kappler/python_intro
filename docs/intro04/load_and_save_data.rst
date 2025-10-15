@@ -24,27 +24,15 @@ Basic filtering and data manipulation
 -------------------------------------
 
 Load the Keeling curve again. We have understood that no data values are marked with negative
-numbers. Let's remove those with a for loop (there are better ways at a later stage). Take your time, if
-this is your first time of writing a loop this can take some time.
+numbers. Let's remove those with a for loop (there are better ways to do this...).
 
 .. attention:: Exercise 4.2:
 
-    * Print all CO2 values on the screen using a for loop. (How could this be done much easier?)
+    * Print all CO2 values on the screen using a for loop.
     * Print only the time intervals where no data are available
     * Create a new vector where the no-data values are removed.
     * Visualize the new vector. Anything different compared to the previous exercise?
       Start a new for loop block and calculate the time derivative of the time series. Visualize it.
-
-Linear Regession
-----------------
-
-.. attention:: Exercise 4.3:
-
-    Load the Keeling curve. Fit a first and second order polynomial to the dataset. We understand
-    that this type of fitting must have been solved by somebody else already and therefore use functions to do
-    the task, specifically numpy's ``polyfit`` and ``polyval`` combination. Visualize the seasonality by subtracting
-    the fit from the observations. Which models (i.e. first or second order polynomial) fits better and what
-    does that mean?
 
 Reading data from multiple files
 --------------------------------
@@ -97,14 +85,6 @@ function you can specify a filename, the headers to the columns, the separator e
 
 .. code-block:: python
 
-    import pandas as pd
-
-    data = pd.read_csv("monthly_in_situ_co2_mlo_ready4loading.txt", sep=" ", names = ["Year", "CO2 value"])
-    data = data[data["CO2 value"] >= 0.0]
-    data.to_csv("output.csv", index=False)
-
-.. code-block:: python
-
     import math
     import pandas as pd
 
@@ -122,7 +102,7 @@ function you can specify a filename, the headers to the columns, the separator e
     gen_data("data3.csv", 10, 20, 0.001)
     gen_data("data4.csv", 5, 10, 0.1)
 
-.. attention:: Exercise 4.4:
+.. attention:: Exercise 4.3:
 
     To get used to the export and import function go back to the Keeling curve data. Modify the txt file to
     a csv file (e.g. manually in the explorer). Import that csv file using the import csv function. As a next
@@ -133,16 +113,12 @@ function you can specify a filename, the headers to the columns, the separator e
 More data manipulation
 ----------------------
 
-.. attention:: Exercise 4.5:
+.. attention:: Exercise 4.4:
 
-    Load the .txt file called "temperature amplitude". This contains two columns, the first has temperature
+    Load the file called "temperature_amplitude.txt". This contains two columns, the first has temperature
     in :math:`^{\circ} C`, the second the radar amplitudes of a reflection. The system used for the data acquisition is time
     sensitive. This means whenever the temperature of the surrounding falls below :math:`0^{\circ} C` the amplitude of the
     signal has to be scales up by a factor of 10. Write a code that reads in the data, corrects the data for
     the temperature dependence and then exports the data again in a file that contains headers. To make the
     difference between a while and a for loop more clear, write a code containing a while loop and then one
     that contains a for loop and compare the results.
-
-    The while loop only picks up the temperature below :math:`0^{\circ} C` at the start of the data, once the temperature is
-    above :math:`0^{\circ} C`, it does not check for this condition anymore. In that case an if/for loop is more appropriate
-    to make sure all data are checked.
