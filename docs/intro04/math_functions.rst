@@ -19,7 +19,7 @@ Make use of some numpy functions (``numpy.arange``) and get a feel for some vect
       where x is the independent variable and the factors :math:`x_0` , :math:`A`, and :math:`\sigma_x` determine the shape of the function.
       Make sure that you understand what each parameter pertains to.
 
-More Loops
+More loops
 ----------
 
 .. attention:: Exercise 4.6:

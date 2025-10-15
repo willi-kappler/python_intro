@@ -185,7 +185,7 @@ difference between these different datatypes.
 * tuple: elemnts can be of different type but the values and types can not be changend once defined
 * dictionary: a mapping between a key and a value. Can be changed. Keys must be of the same types, values can be of different types.
 
-Numpy Arrays
+Numpy arrays
 ------------
 
 In the library ``numpy`` the function ``array()`` enables you to define different arrays, such as for instance a 1D array, a
@@ -238,7 +238,7 @@ Useful functions
     * Print out what is the maxium value in the first coloumn of the 2D array.
     * Which command will print out the values displayed in red?
 
-Modules and Packages
+Modules and packages
 --------------------
 
 A package (also called a library) can have multiple modules. You can also define your own modules and packages.

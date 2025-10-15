@@ -1,4 +1,4 @@
-Loading and Saving data
+Loading and saving data
 =======================
 
 Loading and visualization of ASCII-txt input data

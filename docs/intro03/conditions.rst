@@ -1,4 +1,4 @@
-If Conditions
+If conditions
 =============
 
 Important for the if conditions and for the for loop is to have a colon after the statement and then have eveything in

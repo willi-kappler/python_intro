@@ -41,9 +41,15 @@ actively and in small groups. Really, the only way to learn Python is to do it.
 
 .. toctree::
    :maxdepth: 2
-   :caption: 05 More advanced topics
+   :caption: 05 Heat transport
 
    intro05/heat_equation
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 06 More advanced topics
+
+   intro06/advanced_topics
 
 Indices and tables
 ==================

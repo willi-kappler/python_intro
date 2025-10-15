@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Introduction to Python"
-copyright = "2025, Rebecca Schlegel, Willi Kappler, Amir Ershadi"
+copyright = "2025, Rebecca Schlegel, Reinhard Drews, Willi Kappler, Amir Ershadi"
 author = "Willi Kappler"
 
 # The full version, including alpha/beta/rc tags
