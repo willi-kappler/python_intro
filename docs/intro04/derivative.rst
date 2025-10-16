@@ -12,6 +12,8 @@ should also be a **2 x n array** with the independent variable in the first colu
 dependent variable in the second colum.
 Here you should do this for the Keeling curve and for the Gausspeak.
 
+.. _exercise_4_9:
+
 .. attention:: Exercise 4.9:
 
     * Use your function ``ForwardDifferencingXY`` to calculate rates of change for the Keeling curve, the

@@ -18,6 +18,8 @@ coordinates). The time is given in modified Julian days which are days since Nov
 for information, not needed in exercise). Please complete the following tasks. Some are easier, some are
 harder.
 
+.. _exercise_6_1:
+
 .. attention:: Exercise 6.1:
 
     * Visualize the movement of the GPS station in a x-y scatter plot (easy)
@@ -41,6 +43,8 @@ harder.
 View downstream of Priestley Glacier. At the far end you can see the ocean. The ice starts to
 float on ocean water approximately at the end of the mountain chain located at the glaciers true left side:
 
+.. _priestley_glacier:
+
 .. image:: 20181031_140359.jpg
 
 .. index::
@@ -61,6 +65,8 @@ into the nature of landslides. The rules of this system are (Wikipedia entry has
   the surrounding (this is a landslide). Then continue.
 * Grains fall of the boundaries are lost.
 
+.. _exercise_6_2:
+
 .. attention:: Exercise 6.2:
 
     * Implement this set of rules on a grid and visualize its evolution.
@@ -73,6 +79,8 @@ you can walk on. Your life depends on two rules only:
 
 * At a white square, turn 90 right, flip the color of the square, move forward one unit
 * At a black square, turn 90 left, flip the color of the square, move forward one unit
+
+.. _exercise_6_3:
 
 .. attention:: Exercise 6.3:
 

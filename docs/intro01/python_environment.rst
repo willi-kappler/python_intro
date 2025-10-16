@@ -63,4 +63,6 @@ To ensure that Python is installed correctly you can run this simple test progra
 
 The result should look something like this:
 
+.. _sine_plot:
+
 .. image:: sine_plot.png

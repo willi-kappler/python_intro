@@ -127,6 +127,8 @@ of the code, e.g. do you need to import data in a certain format etc. is useful.
 Operators
 ---------
 
+.. _python_operators:
+
 .. csv-table:: Python operators
    :header: "Operator name", "Operator", "Example", "Result"
    :align: center
@@ -174,6 +176,8 @@ Caution! Be aware that python is working in a binary format, which only knows 0 
 represented by a combination of 1s and 0s. The following list gives a few examples of integer numbers and their
 corresponding binary numbers in a 8-bit system:
 
+.. _binary_numbers:
+
 .. csv-table:: Binary numbers
     :header: "Integer", "Binary", "Integer", "Binary"
     :align: center
@@ -219,10 +223,14 @@ Numpy arrays
 In the library ``numpy`` the function ``array()`` enables you to define different arrays, such as for instance a 1D array, a
 2D array, 3D array. These are defined row-wise (row-major):
 
+.. _array_index:
+
 .. image:: arrays_index.png
 
 Examples of a 1D, 2D and 3D array. Imagine that all values in the second array (the one in the back) of
 the 3D array are 1:
+
+.. _1D_2D_3D_arrays:
 
 .. image:: 1D_2D_3D_arrays.png
 
@@ -263,6 +271,8 @@ Useful functions
 * ``l.sort()``: sorts a list of items.
 * ``min(), max()``: find the smallest / biggest element in a built-in data structure.
 * ``np.min(), np.max()``: min, max for numpy arrays.
+
+.. _exercise_2_1:
 
 .. attention:: Exercise 2.1:
 

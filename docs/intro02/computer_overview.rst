@@ -3,6 +3,8 @@ A quick overview on how computers work
 
 This is just a rough description of a modern computer:
 
+.. _computer_overview:
+
 .. image:: computer_overview.png
 
 The most important components are:

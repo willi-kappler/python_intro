@@ -14,6 +14,8 @@ Load the file ``monthly_in_situ_co2_mlo_ready4loading.txt`` which is the Keeling
 know what this is please inform yourself. The data are decimal years in the first column and :math:`CO_2` in ppm
 in the second column. A lack of data is marked with negative numbers.
 
+.. _exercise_4_1:
+
 .. attention:: Exercise 4.1:
 
     * Load the data (e.g., using ``numpy.loadtxt()``).
@@ -33,6 +35,8 @@ Basic filtering and data manipulation
 
 Load the Keeling curve again. We have understood that no data values are marked with negative
 numbers. Let's remove those with a for loop (there are better ways to do this...).
+
+.. _exercise_4_2:
 
 .. attention:: Exercise 4.2:
 
@@ -124,6 +128,8 @@ function you can specify a filename, the headers to the columns, the separator e
     gen_data("data3.csv", 10, 20, 0.001)
     gen_data("data4.csv", 5, 10, 0.1)
 
+.. _exercise_4_3:
+
 .. attention:: Exercise 4.3:
 
     To get used to the export and import function go back to the Keeling curve data. Modify the txt file to
@@ -134,6 +140,8 @@ function you can specify a filename, the headers to the columns, the separator e
 
 More data manipulation
 ----------------------
+
+.. _exercise_4_4:
 
 .. attention:: Exercise 4.4:
 

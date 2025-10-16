@@ -10,6 +10,8 @@ Visualization of mathematical functions
 
 Make use of some numpy functions (``numpy.arange``) and get a feel for some vector manipulation.
 
+.. _exercise_4_5:
+
 .. attention:: Exercise 4.5:
 
     * Visualize :math:`f(t)=\sin(\omega t + \phi_0)` for a given frequency :math:`\omega = 1.2Hz` and phase shift :math:`\phi_0` over the time
@@ -30,6 +32,8 @@ Make use of some numpy functions (``numpy.arange``) and get a feel for some vect
 
 More loops
 ----------
+
+.. _exercise_4_6:
 
 .. attention:: Exercise 4.6:
 
@@ -82,6 +86,8 @@ Mathematically the Fibonacci numbers are defined as:
         \end{array}
     \right.
 
+.. _exercise_4_7:
+
 .. attention:: Exercise 4.7:
 
     Now write the Fibonacci function in a non-recursive way using a *for loop* or a *while loop*.
@@ -121,9 +127,13 @@ for a 2nd-5th order polynominal:
 
 To evalualte this polynominal at specific values (given as x) use the ``polyval`` function.
 
+.. _regression:
+
 .. image:: regression.png
 
 You can read more about it here: https://en.wikipedia.org/wiki/Coefficient_of_determination
+
+.. _exercise_4_8:
 
 .. attention:: Exercise 4.8:
 

@@ -88,6 +88,8 @@ of the average. Or ask the user for input on which range of the data to plot.
     filename = input("Which file do you want to open? ")
     data = np.loadtxt(filename)
 
+.. _exercise_3_2:
+
 .. attention:: Exercise 3.2:
 
     Now write a function that reads in numbers from the user and calculates the total sum and prints this
@@ -96,6 +98,8 @@ of the average. Or ask the user for input on which range of the data to plot.
 
 Rollercoaster on the Christmas Market in Tübingen
 -------------------------------------------------
+
+.. _exercise_3_3:
 
 .. attention:: Exercise 3.3:
 
@@ -106,6 +110,8 @@ Rollercoaster on the Christmas Market in Tübingen
     print out how much that person has to pay to ride on the rollercoaster. In the next stage create a list of
     20 randomly chosen ages and change your code so it calculates the sum of all the ticket prices that group
     of 20 people would pay to ride on the rollercoaster.
+
+    .. _rollercoaster:
 
     .. image:: rollercoaster.png
 

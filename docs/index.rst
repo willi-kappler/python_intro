@@ -51,7 +51,8 @@ actively and in small groups. Really, the only way to learn Python is to do it.
 
    intro06/advanced_topics
 
-Indices and tables
-==================
+Index, Figures, Tables and Exercises
+======================================
 
 * :ref:`genindex`
+* :doc:`figures_tables_exercises`

@@ -20,6 +20,8 @@ numerically explicilty by discretizing the derivatives:
 Take a minute and understand why this equation can be discretized in this way using the time index n
 and the spatial index i.
 
+.. _exercise_5_1:
+
 .. attention:: Exercise 5.1:
 
     Simulate a one dimensional soil profile with :math:`κ = 5^−7 m^2 s^−1` over 10 m. Assume initially an isothermal

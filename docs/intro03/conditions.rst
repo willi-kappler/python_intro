@@ -30,6 +30,8 @@ Here is a table of boolean operation that Python supports:
     single: any
     single: all
 
+.. _and_or:
+
 .. csv-table:: And, Or
     :header: "a", "b", "a and b", "a or b"
     :align: center
@@ -38,6 +40,8 @@ Here is a table of boolean operation that Python supports:
     "False", "True", "False", "True"
     "True", "False", "False", "True"
     "True", "True", "True", "True"
+
+.. _any_all:
 
 .. csv-table:: Any, All
     :header: "l", "any(l)", "all(l)"
@@ -58,6 +62,8 @@ For loops and if conditions
 ---------------------------
 
 Now let's combine a for loop and if condition to solve the following exercise.
+
+.. _exercise_3_1:
 
 .. attention:: Exercise 3.1:
 
