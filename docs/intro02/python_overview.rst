@@ -264,6 +264,14 @@ Here are some useful commands and functions that describe your data:
 Useful functions
 -----------------
 
+.. index::
+    single: arange
+    single: del
+    single: append
+    single: sort
+    single: min
+    single: max
+
 * ``arange(0.0, 100, 0.5)``: create a numpy array with evenly spaced values in the given interval.
 * ``a[:, 3]``: select the second column with all rows from a numpy array.
 * ``del a``: delete a variable and free the memory (any type).

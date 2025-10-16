@@ -50,8 +50,8 @@ You can read more about line styles here: https://matplotlib.org/stable/gallery/
 
 .. index::
     single: savefig
-    single: png
-    single: pdf
+    single: save png
+    single: save pdf
 
 Exporting plots
 ---------------
