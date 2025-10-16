@@ -18,11 +18,3 @@ Try to move all Python code to external files and include them:
           :linenos:
           :lines: 1-10
 
-
-
-Add more intex items:
-
-.. index:: single: installation
-
-:index:`module`
-
