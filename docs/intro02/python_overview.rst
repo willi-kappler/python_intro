@@ -6,12 +6,20 @@ Python is a dynamically and strictly typded interpreted programming language.
 You have already seen a small python program in the last chapter. Python files have the file exrension **".py"**.
 Each program contains statements, which can be definitions or expressions.
 
+.. index:: single: types
+
 Types
 -----
 
 Every Python expression has a specific type. Types are very important in Python and other programming languages as well.
 
 Some of the most simple built-in types are:
+
+.. index::
+    single: bool
+    single: integer
+    single: float
+    single: None
 
 * Boolean values: ``True, False``
 * Integer values: ``1, 2, -12, ...``
@@ -25,6 +33,12 @@ just numbers), then it is defindes as a character string, or often referred to a
 put the input into quotation marks.
 
 Some of the complex (compound) built-in types are:
+
+.. index::
+    single: list
+    single: tuple
+    single: string
+    single: dict
 
 * Lists: ``[1, False, 44.5, "Tübingen"]``
 * Tuples: ``("Heisenberg", 2, -5)``
@@ -46,6 +60,8 @@ External types (must be imported):
 * Numpy array, matrix: ``np.array([[2.5, 7.89, -11.2], [-1.1, -2.2, -3.3]])``
 
 Note that lists and tuples can have different types, but Numpy arrays can only have values of one type!
+
+.. index:: single: variables
 
 Variables
 ---------
@@ -90,6 +106,8 @@ change the first variable, that will automatically change the second as well:
     print(f"The first list is: {l1}") # 10, 2, 3
     print(f"The second list is: {l2}") # 10, 2, 3
 
+.. index:: single: comments
+
 Comments
 --------
 
@@ -103,6 +121,8 @@ Always remember that more time is spend reading a code than writing it. So the m
 it so that a reader (which might well be you in the future) can easily understand what the code is doing. Ideally start
 a code by stating by whom, when and for what the code was written. Also further information on the requirements
 of the code, e.g. do you need to import data in a certain format etc. is useful.
+
+.. index:: single: operators
 
 Operators
 ---------
@@ -145,6 +165,8 @@ Operator work on other types as well:
 As you can tell, you can use the ``"+"`` operator to add strings. And you can multiply a string with a number, which
 causes the string to be printed several times. However, you can not add a number (integer or float) with a string.
 
+.. index:: single: binary
+
 Binary data
 -----------
 
@@ -173,6 +195,8 @@ approximated in a binary form. As a result you might encounter problems:
     print(a) # 3.300000000000000003
     print(a == 3.3) # False
 
+.. index:: single: index
+
 Indices
 -------
 
@@ -184,6 +208,10 @@ difference between these different datatypes.
 * list: elements can be of different type
 * tuple: elemnts can be of different type but the values and types can not be changend once defined
 * dictionary: a mapping between a key and a value. Can be changed. Keys must be of the same types, values can be of different types.
+
+.. index::
+    single: numpy
+    single: array
 
 Numpy arrays
 ------------
@@ -207,6 +235,11 @@ In order to use the numpy library you have to install it first and after that yo
     a = np.arange([1, 2, 3, 4])
     print(a)
     print(f"The first element is: {a[0]}")
+
+.. index::
+    single: size
+    single: dimension
+    single: shape
 
 Check size, dimensions and type of data
 ---------------------------------------
@@ -237,6 +270,10 @@ Useful functions
     * Once the three arrays are created write a ``print()`` command that states the dimensions of these arrays.
     * Print out what is the maxium value in the first coloumn of the 2D array.
     * Which command will print out the values displayed in red?
+
+.. index::
+    single: module
+    single: package
 
 Modules and packages
 --------------------

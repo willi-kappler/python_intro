@@ -1,6 +1,9 @@
 Heat transport
 ==============
 
+.. index::
+    single: heat
+
 In class we have introduced the diffusive heat equation as a partial differential equation:
 
 .. math::

@@ -1,6 +1,11 @@
 If conditions
 =============
 
+.. index::
+    single: if
+    single: elif
+    single: else
+
 Important for the if conditions and for the for loop is to have a colon after the statement and then have eveything in
 this block indented. So do no introduce additionsl indentations, this will cause an error.
 
@@ -18,6 +23,12 @@ this block indented. So do no introduce additionsl indentations, this will cause
 
 Here is a table of boolean operation that Python supports:
 (All of them support short circuit)
+
+.. index::
+    single: and
+    single: or
+    single: any
+    single: all
 
 .. csv-table:: And, Or
     :header: "a", "b", "a and b", "a or b"
@@ -44,7 +55,7 @@ Here is a table of boolean operation that Python supports:
     "[..., False, ...]", "True", "False"
 
 For loops and if conditions
-===========================
+---------------------------
 
 Now let's combine a for loop and if condition to solve the following exercise.
 

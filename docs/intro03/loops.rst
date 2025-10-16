@@ -1,6 +1,10 @@
 Repeating stuff in Python
 =========================
 
+.. index::
+    single: for
+    single: loop
+
 For Loops
 ---------
 
@@ -63,6 +67,10 @@ All the lines which you want to execute during one iteration have to be indented
     antarctic_research_stations = ["Halley", "Neumayer", "Rothera", "McMurdo", "Amundsen-Scott South Pole", "Concordia", "Casey", "etc."]
     for station in antarctic_research_stations:
         print(station)
+
+.. index::
+    single: while
+    single: break
 
 While Loops
 -----------

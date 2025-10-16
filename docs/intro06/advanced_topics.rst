@@ -1,6 +1,10 @@
 Advanced topics
 ===============
 
+.. index::
+  single: gps
+  single: radar
+
 GPS data analysis
 -----------------
 
@@ -39,6 +43,11 @@ float on ocean water approximately at the end of the mountain chain located at t
 
 .. image:: 20181031_140359.jpg
 
+.. index::
+  single: cellular automata
+  single: sandpile
+  single: ant
+
 Cellular automata: Abelian Sandpile model
 -----------------------------------------
 
@@ -58,7 +67,6 @@ into the nature of landslides. The rules of this system are (Wikipedia entry has
 
 Cellular automata: Langton's Ant as a 2D example
 ------------------------------------------------
-
 
 Imagine you are in a 2D universe that is intially completely white on consists out of 100 x 100 cells that
 you can walk on. Your life depends on two rules only:

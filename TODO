@@ -1,3 +1,15 @@
+Documentation:
+
+https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#index-generating-markup
+
+https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/structure.html
+
+https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+
+
+
+
+
 Try to move all Python code to external files and include them:
 
 

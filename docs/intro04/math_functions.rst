@@ -1,6 +1,10 @@
 Math functions
 ==============
 
+.. index::
+    single: sinus
+    single: gauss 1D
+
 Visualization of mathematical functions
 ---------------------------------------
 
@@ -19,6 +23,11 @@ Make use of some numpy functions (``numpy.arange``) and get a feel for some vect
       where x is the independent variable and the factors :math:`x_0` , :math:`A`, and :math:`\sigma_x` determine the shape of the function.
       Make sure that you understand what each parameter pertains to.
 
+.. index::
+    single: gauss 2D
+    single: pcolormesh
+    single: meshgrid
+
 More loops
 ----------
 
@@ -32,6 +41,11 @@ More loops
     using a nested for loop. This is harder. In essence you will need to fill a 2D array and visualize it with colors
     using ``plt.pcolormesh()``. Then do the same but replace the nested for loops using numpys ``"meshgrid"``.
     What is easier?
+
+.. index::
+    single: recursion
+    single: fib
+    single: fibonacci
 
 Recursion
 ---------
@@ -72,6 +86,12 @@ Mathematically the Fibonacci numbers are defined as:
 
     Now write the Fibonacci function in a non-recursive way using a *for loop* or a *while loop*.
 
+.. index::
+    single: regression
+    single: polynominal
+    single: polyfit
+    single: polyval
+
 Regressions
 -----------
 
@@ -80,7 +100,7 @@ be linear (first order) or polynominal (higher order). To determine how good the
 data, we can calcualte the :math:`R^2` value. The higher the :math:`R^2` value, the better the fit to the data. Let's look at the figure below.
 Here the green dots are our exemplary datapoint. Panel 1 shows a linear fit, Panel 2 a second order, Panel 3 a third
 order and Panel 4 a forth order fit. We see the :math:`R^2` value increasing with every panel. In this example the exemplary
-data is created using a forth order polinominal function.
+data is created using a forth order polynominal function.
 
 Using the polyfit function you can fit a n-th order function to your data. The output of this function then is a vector
 of coefficients p that minimise the squared error of the fit to the data. For instance for a linear fit the fit looks like:

@@ -1,6 +1,13 @@
 How to plot data
 ================
 
+.. index::
+    single: plot
+    single: title
+    single: xlabel
+    single: ylabel
+    single: show
+
 When ploting in python we use the ``plot()`` function part of the matplotlib library. In the plot function you give the
 X and Y parameter. Remember that X and Y need to have the same length. using ``plt.title``, ``plt.xlabel`` and ``plt.ylabel``
 you define a title, x and y labels. In this class as well as outside of this class, for your thesis or reports, a
@@ -31,7 +38,7 @@ end, which tells python to plot the data in the format you specified before:
 
 
 
-The default of the ``plot`` function is to draw a line. The style of the line can be changed using:
+The default of the ``plot()`` function is to draw a line. The style of the line can be changed using:
 
 .. code-block:: python
 
@@ -41,6 +48,10 @@ The default of the ``plot`` function is to draw a line. The style of the line ca
 
 You can read more about line styles here: https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html
 
+.. index::
+    single: savefig
+    single: png
+    single: pdf
 
 Exporting plots
 ---------------

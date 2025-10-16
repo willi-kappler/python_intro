@@ -1,6 +1,12 @@
 Loading and saving data
 =======================
 
+.. index::
+    single: loadtext
+    single: keeling
+    single: load
+    single: read
+
 Loading and visualization of ASCII-txt input data
 -------------------------------------------------
 
@@ -19,6 +25,8 @@ in the second column. A lack of data is marked with negative numbers.
       time series. Are those values meaningful?
     * Visualize only the first ten elements, the last ten elements, and elements from 20 to 30.
 
+.. index::
+    single: filter
 
 Basic filtering and data manipulation
 -------------------------------------
@@ -33,6 +41,11 @@ numbers. Let's remove those with a for loop (there are better ways to do this...
     * Create a new vector where the no-data values are removed.
     * Visualize the new vector. Anything different compared to the previous exercise?
       Start a new for loop block and calculate the time derivative of the time series. Visualize it.
+
+.. index::
+    single: read_csv
+    single: concat
+    single: multiple files
 
 Reading data from multiple files
 --------------------------------
@@ -54,6 +67,10 @@ of doing this is to specify the files in a list:
 
     print(result)
 
+.. index::
+    single: glob
+    single: pattern
+
 Another way is to specify a file pattern and to load all the files that have that pattern in their name:
 
 .. code-block:: python
@@ -73,6 +90,11 @@ Another way is to specify a file pattern and to load all the files that have tha
 
 So now try to do it by yourself: Load in some data files, merge the data and make a nice plot.
 
+.. index::
+    single: to_csv
+    single: export
+    single: write
+    single: save
 
 Exporting data from Python
 --------------------------

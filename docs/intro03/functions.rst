@@ -1,6 +1,8 @@
 Functions in Python
 ====================
 
+.. index:: single: function
+
 You already know several functions in python, such as ``print()``, ``range()``, ``len()``. Behind these words stand a block of code
 which will only be executed when you call the function. Let's look at the example of the function ``len()``. When you
 want to find out the length of a data structure, i.e. how many characters there are in a string, you can use the following
@@ -18,7 +20,13 @@ Python then runs the function and returns the results. You can find more detail 
 
 https://www.w3schools.com/python/ref_func_len.asp
 
+.. index::
+    single: def
+    single: return
+
 Why do we use or define functions? It's an abstraction method to enable re-usage of code again.
+To return a value use the ``return`` keyword. You can return any value from a function.
+If you do not specify a return value, the default will be ``None``.
 
 .. code-block:: python
 
@@ -48,6 +56,10 @@ Why do we use or define functions? It's an abstraction method to enable re-usage
     s4 = add_any([])
 
     print(f"The sum is: {s3}")
+
+.. index::
+    single: input
+    single: conversion
 
 Ask for user input
 ------------------

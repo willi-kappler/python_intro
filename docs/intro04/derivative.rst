@@ -1,6 +1,9 @@
 Derivatives
 ===========
 
+.. index::
+  single: derivative
+
 Calculating the time (or spatial) derivative of a 1D dataset is something that may occur quite frequently.
 Occuring tasks are best written in functions for many reasons (name at least two). Write a function called
 ``ForwardDifferencingXY`` that takes a **2 x n array** as input where the independent variable (e.g., time) is
