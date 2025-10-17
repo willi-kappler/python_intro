@@ -14,6 +14,7 @@ for i in range(length1):
     # No data available:
     if co2_value < 0:
         print(f"No data in row: {i}, time: {time}")
+    else:
         good_values.append((time, co2_value))
 
 # No data values removed:
