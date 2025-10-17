@@ -1,4 +1,3 @@
-import math
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -35,7 +34,7 @@ def sliding_window(n, d):
 
 elev_wind2 = sliding_window(5, elevation)
 
-elev_wind3 = elevation.rolling(5).sum()
+elev_wind3 = elevation.rolling(200).sum()
 
 figsize = 12
 fig, ax = plt.subplots()
@@ -59,7 +58,7 @@ ax.grid()
 fig, ax = plt.subplots()
 fig.set_figwidth(figsize)
 ax.plot(data["time"], elev_wind3)
-ax.set(xlabel="time (day)" , ylabel="elevation (m)", title="window size 5 (pandas)")
+ax.set(xlabel="time (day)" , ylabel="elevation (m)", title="window size 200 (pandas)")
 ax.grid()
 
 plt.show()
