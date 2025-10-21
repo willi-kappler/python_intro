@@ -51,7 +51,7 @@ These types can also be nested:
 * Lists: ``[[1, 2, 3], ("a", "b", "c"), 3.4, [(5, 5), (6, 6)]]``
 * Tuples: ``(("geo", 2), [7, -3.5, (9, 10)], "Einstein")``
 
-The differece between a list and a tuple is simple: list can be changed, but tuples not.
+The difference between a list and a tuple is simple: list can be changed, but tuples not.
 But tuples are faster in Python code. List access and creating a list is slower.
 
 External types (must be imported):
