@@ -10,7 +10,7 @@ For Loops
 
 Now what would you do if you want to print out every value in an array? From what you know until now you might
 think of using the first options shown here, but this would be a very time-consuming option. Using a for loop, as
-shown for the second option here will allow you to print individal values that match a condition, or do an calcualtion
+shown for the second option here will allow you to print individual values that match a condition, or do an calcualtion
 with this value.
 
 .. code-block:: python
@@ -39,7 +39,7 @@ with this value.
     # index: 2, value3
     # index: 3, value4
 
-A loop is used to iteratie over a sequence, which could consist of a list, tuple, dictionary, etc. Using a for loop you
+A loop is used to iterate over a sequence, which could consist of a list, tuple, dictionary, etc. Using a for loop you
 can access every elemnt in a list or every letter in a word one by one using this command:
 
 .. code-block:: python
@@ -76,7 +76,7 @@ While Loops
 -----------
 
 As long as the condition is true, in this case the x is smaller than 10, the while loop can execute a set of statements,
-such as pringing the value. A while loop is useful when trying to repaet a specific calculation on unknown numbers
+such as printing the value. A while loop is useful when trying to repaet a specific calculation on unknown numbers
 until certain condition is met. An example for this might be the input of a password in a code. As long
 as the password is not correct, the code will return "Sorry this password is incorrect!. Once the right password was
 entered the while loop will terminate and the code can continue.
@@ -102,4 +102,4 @@ To exit the while loop use the ``break`` keyword.
             break
 
 In this example, the while loop will be terminated once x is greater than 9. If this ``break`` keyword in combination
-with the if condition would not be included here, then this would be an endless loop and the porgram would never terminate.
+with the if condition would not be included here, then this would be an endless loop and the program would never terminate.
