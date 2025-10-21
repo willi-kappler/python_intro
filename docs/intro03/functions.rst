@@ -64,7 +64,7 @@ If you do not specify a return value, the default will be ``None``.
 Ask for user input
 ------------------
 
-The input given is automatically saved as a string. However if you want to do any mathematical calcualtation with
+The input given is automatically saved as a string. However if you want to do any mathematical calculation with
 this input, you either need to convert it into a float or an integer.
 Why is it useful to ask the user for input? For instance, you could ask the user for the name of the file the user
 whats to load. Or you could ask the user for input on the size of a sliding window for calculation
