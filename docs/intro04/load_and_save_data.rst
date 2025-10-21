@@ -11,7 +11,7 @@ Loading and visualization of ASCII-txt input data
 -------------------------------------------------
 
 Load the file ``monthly_in_situ_co2_mlo_ready4loading.txt`` which is the Keeling curve. If you don't
-know what this is please inform yourself. The data are decimal years in the first column and :math:`CO_2` in ppm
+know what this is please check this out (https://keelingcurve.ucsd.edu). The data are decimal years in the first column and :math:`CO_2` in ppm
 in the second column. A lack of data is marked with negative numbers.
 
 .. _exercise_4_1:
