@@ -6,8 +6,8 @@ If conditions
     single: elif
     single: else
 
-Important for the if conditions and for the for loop is to have a colon after the statement and then have eveything in
-this block indented. So do no introduce additionsl indentations, this will cause an error.
+Important for the if conditions and for the for loop is to have a colon after the statement and then have everything in
+this block indented. So do no introduce additional indentations, this will cause an error.
 
 .. code-block:: python
 
