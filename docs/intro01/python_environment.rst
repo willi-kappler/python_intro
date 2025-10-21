@@ -21,7 +21,7 @@ Ensure that you have the following Python packages:
 .. index:: single: editors
 
 **Editors:** You can use any text editor to write your python code. However, editors which are designed
-specifically for coding in python offer you different featues, such as ode completion, synthay highlighting and
+specifically for coding in python offer you different featues, such as code completion, syntax highlighting and
 auto indentation, which will make your life much easier. Examples of such editors are PyCharm, Anaconda,
 IDLE, Jupyter, Spyder.
 
