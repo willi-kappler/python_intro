@@ -22,7 +22,7 @@ Ensure that you have the following Python packages:
 
 **Editors:** You can use any text editor to write your python code. However, editors which are designed
 specifically for coding in python offer you different featues, such as ode completion, synthay highlighting and
-auto ondentation, which will make your life much easier. Examples of such editors are PyCharm, Anaconda,
+auto indentation, which will make your life much easier. Examples of such editors are PyCharm, Anaconda,
 IDLE, Jupyter, Spyder.
 
 .. index:: single: indentation
