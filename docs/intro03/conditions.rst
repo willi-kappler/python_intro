@@ -68,7 +68,7 @@ Now let's combine a for loop and if condition to solve the following exercise.
 .. attention:: Exercise 3.1:
 
     * Create a vector including numbers from 1 to 9.
-    * Using a for loop iterate over each of these numbers.
+    * Using a for loop to iterate over each of these numbers.
     * If the number is odd (which you can check using the ``%`` (modulus) operator) then add a 1 to the number and print the number.
     * If the number is even then simply print this number.
 
