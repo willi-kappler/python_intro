@@ -33,10 +33,7 @@ end, which tells python to plot the data in the format you specified before:
     plt.ylabel("salinity")
     plt.grid()
 
-    ax.set(xlabel="Time in years", ylabel="Co2 in ppm", title="Keeling Curve")
     plt.show()
-
-
 
 The default of the ``plot()`` function is to draw a line. The style of the line can be changed using:
 
