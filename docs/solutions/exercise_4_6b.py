@@ -19,5 +19,6 @@ t2 = ((yy - y0)**2) / sig_y
 zz = A * np.exp(-t1 - t2)
 
 fig, ax = plt.subplots()
-ax.pcolormesh(xx, yy, zz)
+pc = ax.pcolormesh(xx, yy, zz)
+fig.colorbar(pc)
 plt.show()

@@ -21,5 +21,6 @@ for x in range(0, lenX):
         G[x, y] = A * exp(-t1 - t2)
 
 fig, ax = plt.subplots()
-ax.pcolormesh(G)
+pc = ax.pcolormesh(G)
+fig.colorbar(pc)
 plt.show()
