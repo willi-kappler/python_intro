@@ -7,8 +7,8 @@ array3D = np.array([[[0.2, 5.1, 9], [26.9, 2.5, 0.7]], [[1, 1, 1], [1, 1, 1]]])
 
 # Now print the shape of the differen arrays
 print(f"The shape of the array1D is {array1D.shape}")
-print(f"The shape of the array1D is {array2D.shape}")
-print(f"The shape of the array1D is {array3D.shape}\n")
+print(f"The shape of the array2D is {array2D.shape}")
+print(f"The shape of the array3D is {array3D.shape}\n")
 
 # Print the maximum value
 print(f"The maximum value in the first column of array2D is {np.max(array2D[:, 0])}")
