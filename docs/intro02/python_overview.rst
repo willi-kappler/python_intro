@@ -287,7 +287,7 @@ Useful functions
     * Use the library ``numpy`` to create the three arrays shown above with the function ``array()``.
     * Once the three arrays are created write a ``print()`` command that states the dimensions of these arrays.
     * Print out what is the maxium value in the first coloumn of the 2D array.
-    * Which command will print out the values displayed in red?
+    * There are three numbers shown in red. Which command will print out these values?
 
 .. index::
     single: module
