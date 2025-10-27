@@ -76,9 +76,9 @@ of the average. Or ask the user for input on which range of the data to plot.
     name = input("What is your name? ")
     print(f"Hello {name}")
 
-    number = input("Give me a number: ")
-    number = int(number) # Convert it to an integer
-    number = float(number) # Convert it to a float
+    number1 = input("Give me a number: ")
+    number2 = int(number1) # Convert it to an integer
+    number3 = float(number1) # Convert it to a float
 
 
 .. code-block:: python
