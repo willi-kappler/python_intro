@@ -143,6 +143,7 @@ Operators
     "comparison", "<, <=, ==, !=, >, >=", "5 < 8", "True"
     "index", "[]", "l1[2]", "thrid element of list"
     "", "", "l1[-1]", "last element of list"
+    "", "", "l1[2:7]", "elements 3 to 7"
 
 Operator work on other types as well:
 
