@@ -18,9 +18,9 @@ Nahuelbuta weather station
 
 The data file contains data from a weather station in Nahuelbuta.
 
-* Read in the CSV file "data0_no_time.csv". (use ``np.loadtxt()`` and ``delimiter=","``)
+* Read in the CSV file ``data1.csv``. (use ``np.loadtxt()`` and ``delimiter=","``)
 * Write a function that filters out the invalid values (``-9999.0``) from the data.
-* Plot the first (air temperature in :math:`^{\circ} C`) and second column (solar radiation :math:`\frac{Watt}{m^2}`) in two separate plots.
+* Plot the first (air temperature in :math:`^{\circ} C`) and second column (solar radiation :math:`\frac{W}{m^2}`) in two separate plots.
 * The time information is missing, try to figure out from what time period the data is.
 
 Extra work:
@@ -32,7 +32,7 @@ Exam 02
 
 A GPS Station in Antarctica
 
-Load data ``XYShirase_GPS_Small.txt``. This datafile was recoreded by a GPS station on an Antarctica Ice
+Load data ``data2.txt``. This datafile was recoreded by a GPS station on an Antarctica Ice
 shelf. The data structure is as follows:
 
 * col1: coordinate polar stereographic East (m)
@@ -90,8 +90,7 @@ day (1 hour average).
 * Read in the CSV file ``data5.csv``. (use ``np.loadtxt()``, ``delimiter=","`` and ``usecols=(1,2)``)
 * Write a function that filters out the invalid values (-9999.0) from the data.
 * Write a function that calculates the first and second derivative.
-* Plot the data: first column contains the average wind speed, second column contains the maximum
-wind speed.
+* Plot the data: first column contains the average wind speed, second column contains the maximum wind speed.
 
 Extra work:
 Calculate the correlation of both data sets. Make the plot interactive: let the user change the time range
@@ -102,7 +101,7 @@ Exam 06
 
 Smoothing Data
 
-Load data ``XYShirase_GPS_Small.txt``. This datafile was recoreded by a GPS station on an Antarctica Ice
+Load data ``data6.txt``. This datafile was recoreded by a GPS station on an Antarctica Ice
 shelf. The data structure is as follows:
 
 * col1: coordinate polar stereographic East (m)
@@ -126,7 +125,7 @@ Exam 07
 
 A bit of geophysics, but not too much.
 
-The data file is a derived product from a radar survey in Antarctica. The radar was towed behind a skidoo
+The data file (``data7.txt``) is a derived product from a radar survey in Antarctica. The radar was towed behind a skidoo
 with lots of driving around. The data format is as follows:
 
 * col1: coordinate polar-stereographic East (m)
@@ -147,13 +146,12 @@ Exam 08
 
 Polynomial
 
-The data given is from one month (2022.04) of the weather station in Nahuelbuta. There are 24 values
+The data (``data8.csv``) given is from one month (2022.04) of the weather station in Nahuelbuta. There are 24 values
 per day (1 hour average).
 
 * Read in the CSV file "data5.csv". (use np.loadtxt(), delimiter="," and usecols=(1,2))
 * Write a function that filters out the invalid values (-9999.0) from the data.
-* Take one of the precipitation peaks (for example on 2022-04-24) and try to fit a second order poly-
-nomial using the function polyfit.
+* Take one of the precipitation peaks (for example on 2022-04-24) and try to fit a second order polynomial using the function polyfit.
 * Plot the data: first column contains the solar radiation, second column contains the precipitation.
 
 Extra work:
@@ -165,7 +163,7 @@ Exam 09
 
 A bit of geophysics, but not too much.
 
-The data file is a derived product from a radar survey in Antarctica. The radar was towed behind a skidoo
+The data file (``data9.txt``) is a derived product from a radar survey in Antarctica. The radar was towed behind a skidoo
 with lots of driving around. The data format is as follows:
 
 * col1: coordinate polar-stereographic East (m)
