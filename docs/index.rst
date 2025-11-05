@@ -51,6 +51,12 @@ actively and in small groups. Really, the only way to learn Python is to do it.
 
    intro06/advanced_topics
 
+.. toctree::
+   :maxdepth: 2
+   :caption: 07 Oral exam
+
+   exam/overview
+
 Index, Figures, Tables and Exercises
 ======================================
 
