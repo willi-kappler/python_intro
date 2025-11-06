@@ -12,7 +12,7 @@ def filter_data(d):
     return d[remove]
 
 
-data = np.loadtxt("data1_no_time.csv", delimiter=",")
+data = np.loadtxt("data1.csv", delimiter=",")
 
 # Air temperature
 result1 = filter_data(data[:, 0])

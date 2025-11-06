@@ -14,9 +14,9 @@ Make use of some numpy functions (``numpy.arange``) and get a feel for some vect
 
 .. attention:: Exercise 4.5:
 
-    * Visualize :math:`f(t)=\sin(\omega t + \phi_0)` for a given frequency :math:`\omega = 1.2Hz` and phase shift :math:`\phi_0` over the time
+    * Visualize :math:`f(t)=\sin(\omega t + \phi_0)` for a given frequency :math:`\omega = 1.2Hz` and phase shift :math:`\phi_0 = 1.0` over the time
       interval :math:`t = 0...10` at discrete time intervals :math:`dt = 0.001` s.
-    * Visualize :math:`f^2(t)`. What happens if you reduced dt to 1 s ?
+    * Visualize :math:`f^2(t)` (squared). What happens if you reduced dt to 1 s ?
     * Visualize a Gaussian peak:
 
       .. math::

@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def filter_data(d):
     result = []
     for i in range(len(d)):
@@ -9,14 +10,16 @@ def filter_data(d):
             result.append(v)
     return result
 
+
 def derivative(d):
     result = []
     for i in range(len(d) - 1):
         result.append((d[i + 1] - d[i]) / 1.0)
     return result
 
+
 # Santa Gracia, 2018
-data = np.loadtxt("data5.csv", delimiter=",", usecols=(1,2))
+data = np.loadtxt("data5.csv", delimiter=",", usecols=(1, 2))
 
 # wind speed average
 result1 = filter_data(data[:, 0])

@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def filter_data(d):
     result = []
     values = []
@@ -13,8 +14,9 @@ def filter_data(d):
                 values = []
     return result
 
+
 # Santa Gracia, 2017
-data = np.loadtxt("data4.csv", delimiter=",", usecols=(1,2))
+data = np.loadtxt("data4.csv", delimiter=",", usecols=(1, 2))
 
 # Air temperature
 result1 = filter_data(data[:, 0])

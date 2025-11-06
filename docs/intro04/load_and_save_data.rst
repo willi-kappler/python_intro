@@ -44,7 +44,7 @@ numbers. Let's remove those with a for loop (there are better ways to do this...
     * Print only the time intervals where no data are available
     * Create a new vector where the no-data values are removed.
     * Visualize the new vector. Anything different compared to the previous exercise?
-      Start a new for loop block and calculate the time derivative of the time series. Visualize it.
+      Start a new for loop block and manually calculate the time derivative of the time series. Visualize it.
 
 .. index::
     single: read_csv
