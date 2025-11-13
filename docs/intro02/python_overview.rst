@@ -241,7 +241,7 @@ In order to use the numpy library you have to install it first and after that yo
 
     import numpy as np
 
-    a = np.arange([1, 2, 3, 4])
+    a = np.array([1, 2, 3, 4])
     print(a)
     print(f"The first element is: {a[0]}")
 
@@ -273,7 +273,8 @@ Useful functions
     single: min
     single: max
 
-* ``arange(0.0, 100, 0.5)``: create a numpy array with evenly spaced values in the given interval.
+* ``arange(0.0, 10.0, 0.5)``: create a numpy array with values starting from 0.0 to 9.5 using a step of 0.5.
+* ``linspace(0.0, 10.0, 20)``: create a numpy array with 20 evenly spaced values between 0.0 and 10.0.
 * ``a[:, 3]``: select the second column with all rows from a numpy array.
 * ``del a``: delete a variable and free the memory (any type).
 * ``l.append(15)``: append the element ``"15"`` to the end of a list.
