@@ -19,4 +19,3 @@ numbers = get_numbers()
 
 numbers.sort()
 print(f"numbers: {numbers}")
-1
