@@ -57,7 +57,8 @@ Cellular automata: Abelian Sandpile model
 
 Self-organized criticality is a fascinating subject that occurs in a number of geo- and environmental pro-
 cesses. Your job is to simulate an Abelian Sandpile Model which has in fact some quite realistic insights
-into the nature of landslides. The rules of this system are (Wikipedia entry has a more formal version of it):
+into the nature of landslides. The rules of this system are (Wikipedia entry (https://en.wikipedia.org/wiki/Abelian_sandpile_model)
+has a more formal version of it):
 
 * Choose a random location on your grid and drop a grain of sand (i.e. add +1)
 * Continue unless one of your grid points as more than 3 grains.
