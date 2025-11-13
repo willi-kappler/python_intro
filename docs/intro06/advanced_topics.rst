@@ -89,3 +89,15 @@ you can walk on. Your life depends on two rules only:
       difficult if not impossible. However, you can find the answer in Python. Go for it! Cellular
       automata such as this have many applications in Geosciences. Another important model is, e.g., the
       sandpile model above.
+
+Solving differential equations: ODE solver
+------------------------------------------
+
+Here you are going to use the scipy function ``solve_ivp()`` (https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html#scipy.integrate.solve_ivp)
+
+.. _exercise_6_4:
+
+.. attention:: Exercise 6.4:
+
+    * Try to solve the equation using ...
+
