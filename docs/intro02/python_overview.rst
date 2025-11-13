@@ -267,6 +267,7 @@ Useful functions
 
 .. index::
     single: arange
+    single: linspace
     single: del
     single: append
     single: sort
