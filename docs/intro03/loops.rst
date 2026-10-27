@@ -16,7 +16,7 @@ with this value.
 .. code-block:: python
 
     # using for loops to iterate through lists and arrays
-    a = ([1, 2, 3, 4])
+    a = [1, 2, 3, 4]
     # Option 1 for printing out every single value
     print(a[0])
     print(a[1])
