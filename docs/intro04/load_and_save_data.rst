@@ -20,8 +20,8 @@ in the second column. A lack of data is marked with negative numbers.
 
     * Load the data (e.g., using ``numpy.loadtxt()``).
     * How many datapoints are in the time series? What are the dimensions of the data array?
-    * Visualise the data (e.g., using `matplotlib``) with meaningful x- and y-limits and axis labels. Decide
-      if the data are better visualised as points, curves or both. Change the color and symbols of the
+    * Visualise the data (e.g., using `matplotlib`) with meaningful x- and y-limits and axis labels. Decide
+      if the data is better visualised as points, curves or both. Change the color and symbols of the
       points.
     * Using Python functions calculate basic quantities such as the mean, minimum and maximum of your
       time series. Are those values meaningful?
