@@ -33,7 +33,7 @@ in the second column. A lack of data is marked with negative numbers.
 Basic filtering and data manipulation
 -------------------------------------
 
-Load the Keeling curve again. We have understood that no data values are marked with negative
+Load the Keeling curve again. We have understood that **no data** values are marked with negative
 numbers. Let's remove those with a for loop (there are better ways to do this...).
 
 .. _exercise_4_2:
